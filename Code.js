@@ -85,6 +85,7 @@ function getDataFromCMC() {
   sheet.clearContents();
   
   var keys = getKeysCMC();
+  var notNumberKeys = ["symbol", "id", "name"]
   
   sheet.getRange(1, 1, 1, keys.length).setValues([keys]);
   
@@ -102,7 +103,11 @@ function getDataFromCMC() {
   for (var r = 0; r < raw.length; r++) {
     var row = new Array();
     for (var k = 0; k < keys.length; k++) {
-      row.push(raw[r][keys[k]]);
+      var v = raw[r][keys[k]];
+      if (notNumberKeys.indexOf(keys[k]) == -1) {
+        v = Number(v)
+      }
+      row.push(v);
     }
     
     if (needPatch) {
