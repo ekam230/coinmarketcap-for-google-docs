@@ -14,3 +14,6 @@ Integrated script for google docs (sheets) for download all information from coi
 You can thank me by:
 1. Star this repo
 2. Donate ETH to 0xC0DE0f1A0fb8701aac8c0659af060E7D2b6e28b0
+
+---
+PS. Yes! WNBP 2.0 powered by this code (with some adaptation of course).
