@@ -1,6 +1,6 @@
 # google-cmc
 
-Integrated script for google docs (sheets) for download all information from coinmarketcap.com
+Integrated script for google apps (sheets) for download all information from coinmarketcap.com and bilaxy.com
 
 ## Instalation
 
