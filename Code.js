@@ -223,7 +223,8 @@ function getBilaxyPairs() {
   data[80] = "BOX";
   data[82] = "RHOC";
   data[83] = "SPRK";
-  data[84] = "SDT";
+  data[84] = "SDS";
+  data[86] = "ABL";
 
   return data;
 }
