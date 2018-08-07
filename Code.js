@@ -225,6 +225,11 @@ function getBilaxyPairs() {
   data[83] = "SPRK";
   data[84] = "SDS";
   data[86] = "ABL";
+  data[87] = "HIT";
+  data[88] = "PMA";
+  data[89] = "ACAD";
+  data[90] = "DX";
+  data[91] = "AION";
 
   return data;
 }
