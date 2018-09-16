@@ -225,6 +225,19 @@ function getBilaxyPairs() {
   data[83] = "SPRK";
   data[84] = "SDS";
   data[86] = "ABL";
+  data[87] = "HIT";
+  data[88] = "PMA";
+  data[89] = "ACAD";
+  data[90] = "DX";
+  data[92] = "USE";
+  data[93] = "FOAM";
+  data[94] = "LX";
+  data[95] = "DAV";
+  data[96] = "PATH";
+  data[97] = "UBEX";
+  data[98] = "UCN";
+  data[99] = "ASA";
+  data[100] = "EDN";
 
   return data;
 }
