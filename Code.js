@@ -229,10 +229,7 @@ function getBilaxyPairs() {
   data[88] = "PMA";
   data[89] = "ACAD";
   data[90] = "DX";
-  data[91] = "AION";
-  data[92] = "UST";
-  data[93] = "FOAM";
-  data[94] = "LX";
+//  data[91] = "AION";
   data[92] = "USE";
   data[93] = "FOAM";
   data[94] = "LX";
